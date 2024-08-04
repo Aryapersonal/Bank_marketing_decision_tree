@@ -32,7 +32,8 @@ This project aims to predict whether a customer will subscribe to a term deposit
 4. [Visualizations and Insights](#visualizations-insights)
 5. [Key Insights](#key-insights)
 6. [Conclusion](#conclusion)
-7. [Author Information](#Author-Information)
+7. [Acknowledgments](#acknowledgments)
+8. [Author Information](#Author-Information)
 
 ## Installation
 To run this project,  you will need Python and Jupyter Notebook installed on your system.
@@ -126,6 +127,13 @@ plt.show()
 
 The decision tree classifier effectively predicts whether a customer will purchase a product based on demographic and behavioral data from the UCI bank marketing dataset. It achieved an accuracy of 86.15%, demonstrating strong
 performance in identifying non-purchasing customers. However, it struggles with predicting purchasing customers due to class imbalance, as reflected in lower precision, recall, and F1-score for the positive class. The decision tree visualization reveals how the model uses different features to make predictions. Overall, while the model is useful, improvements could be made by addressing class imbalance and exploring more advanced techniques for better accuracy on minority classes.
+
+## Acknowledgments
+Thanks to the contributors of the libraries used in this project: Pandas, NumPy, Matplotlib, and Seaborn.
+
+Thanks to the creators of the Bank Marketing dataset for providing the data used in this analysis.
+
+Special thanks to the Prodigy Infotech to provide me this opportunity to showcase my skills in Data loading & preprocessing ,train_test_split data , Train models like decision tree classifier, classification report , accuracy score , Visualize Confusion matrix &  decision tree classifier and forming meaningul insights.
 
 
 ### AUTHOR : ARYA S
